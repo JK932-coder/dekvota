@@ -1,0 +1,293 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5c7f7;
+}
+
+header {
+  background-image: linear-gradient(rgba(39, 44, 109, 0.6), rgba(39, 44, 109, 0.6)), url("../src/pictures/cagliari.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: white; 
+  text-align: center;
+  padding: 200px 0;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-column {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-column-new {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.embed {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 /1;
+}
+
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  height: 300px; /* Set a fixed height for the card header */
+}
+
+.card-header img,
+.card-header iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image and iframe cover the entire area */
+}
+
+.card-header.grid {
+  grid-gap:0; 
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 100px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+section.secondary {
+background-color: #F8F8F8;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #f5c7f7;
+  padding: 16px 32px;
+  gap: 10px;
+  text-decoration: none;
+  color: #272044;
+  display: inline-block;
+  margin-top: 32px;
+}
+ 
+main {
+  background-color: #f1f1f1; 
+  color: black;
+  text-align: left;
+}
+
+main h2 {
+ font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main h3 {
+ font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
+
+main p {
+font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.cagliari {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+footer {
+  background-color: #49beb7;
+  color: white;
+  background-image: linear-gradient(rgba(39, 44, 109, 0.8), rgba(39, 44, 109, 0.8)), url("../src/pictures/sardiniafooter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+
+
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap:32px ;
+  }
+  section {
+    padding: 30px;
+
+  }
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
+  }
+}
